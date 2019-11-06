@@ -181,7 +181,7 @@ while True:
     # desenha uma linha horizontal no centro do quadro,
     # assim que um objeto cruzar essa linha,
     # determinaremos se eles estavam se movendo 'para cima' ou 'para baixo'
-    cv2.line(frame, (0, H // 2), (W, H // 2), (0, 255, 255), 2)
+    cv2.line(frame, (0, W // 2), (H, W // 2), (0, 255, 255), 2)
 
     # usa o rastreador de centróide para associar os
     # (1) centroides de objetos antigos com
